@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    color: #810e0e;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ac0f0f;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(216, 7, 7, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f79684;
+}
+
+
+
+
+.parts-listing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.part-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.part-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.part-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.part-item button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.part-item button a {
+    color: white;
+    text-decoration: none;
+}
+
+.part-item button:hover {
+    background-color: #0056b3;
+}
